@@ -1,0 +1,95 @@
+/* russo-one-regular - cyrillic */
+@font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Russo One'), local('RussoOne-Regular'),
+         url('../fonts/russo-one-v8-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/russo-one-v8-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html{
+      box-sizing: border-box;
+  }
+  *,*::before, *::after{
+      box-sizing: inherit;
+  }
+
+ .wrapper{
+     margin: 0 auto;
+ } 
+
+/* Intro styles start */
+
+.intro {
+    background: url(../img/fone.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 35vh;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+
+}
+
+.intro__title{
+    font-weight: 350;
+    font-size: 30px; 
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 0px;
+    
+}
+
+.summa{
+    height: 60px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    border-radius: 13px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.summa_submit{
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #1A9F29;
+    border-radius: 13px;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    display: block;
+    margin: 0 auto;
+    margin-block-start: -220px;
+    border: none;
+}
+
+.apple-pay{
+    background: url(../img/applepay.png) no-repeat center white;
+    margin-block-start: 10px;
+    border-radius: 13px;
+    align-items: center; 
+    width: 200px;
+    height: 60px;
+    display: block;
+    border: none;
+    margin: 90px auto;
+}
+
+
+/* Intro styles end */
